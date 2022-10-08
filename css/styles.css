@@ -1,5 +1,7 @@
 body {
     text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: brown;
 }
 
 h1 {
@@ -13,17 +15,42 @@ h1 {
 }
 
 img { 
-    height: 450px;
+    height: 500px;
     width: auto;
+    border-radius: 50px;
 
 }
 
-ul {
-    
+.ingredients {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.recipes-list {
     padding-top: 25px;
     display: table; 
     margin: 0 auto;
     text-align: left;
     font-size: 30px;
     font-family: 'Courier New', Courier, monospace;
+}
+
+ul {
+    display: table; 
+    margin: 0 auto;
+    text-align: left;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+ol {
+    display: table; 
+    margin: 0 auto;
+    text-align: left;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    padding-bottom: 20px;   
+}
+
+.return-link {
+    font-size: 24px;
 }
