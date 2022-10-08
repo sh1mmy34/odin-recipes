@@ -1,0 +1,29 @@
+body {
+    text-align: center;
+}
+
+h1 {
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.comfort {
+    font-size: 24px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+img { 
+    height: 450px;
+    width: auto;
+
+}
+
+ul {
+    
+    padding-top: 25px;
+    display: table; 
+    margin: 0 auto;
+    text-align: left;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
